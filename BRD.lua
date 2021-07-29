@@ -270,7 +270,6 @@ function init_gear_sets()
         feet = "Suzaku's Sune-Ate"
     }
 
-
     sets.midcast.Blink = sets.midcast.Stoneskin
 
     sets.midcast.Phalanx = sets.midcast.Stoneskin
