@@ -120,7 +120,7 @@ function init_gear_sets()
     -- you MUST put Minstrel's ring in this set!!
     sets.precast.yellow = {
         head ="Empress Hairpin",
---      neck ="Star Necklace",  -- I only need this with HQ food or /nin, otherwise I comment it out
+        neck ="Star Necklace",  -- I only need this with HQ food or /nin, otherwise I comment it out
         body = "Dalmatica +1",
         hands = "Zenith Mitts +1",
         right_ear = "Astral Earring",
