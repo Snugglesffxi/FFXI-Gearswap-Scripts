@@ -335,6 +335,7 @@ function init_gear_sets()
         legs = "Goliard Trews",
         feet = "Dance Shoes +1"
     }
+
     -- Engaged set
 
     -- basic set for TP, don't forget to toggle F9 or ctrl+F9(for dual wield) so you don't lose your tp!
