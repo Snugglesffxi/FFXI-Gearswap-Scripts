@@ -115,7 +115,7 @@ function init_gear_sets()
 	-- base yellow hp on the highest hp of the song buff/debuff sets you will define below
 	-- you MUST put Minstrel's ring in this set!!
     sets.precast.yellow = {
-		head ="Empress Hairpin",
+	    head ="Empress Hairpin",
 	    neck ="Star Necklace",  -- I only need this with HQ food or /nin, otherwise I comment it out
         body = "Dalmatica +1",
         hands = "Zenith Mitts +1",
