@@ -12,7 +12,7 @@ pre-defined and will follow their own logic. ie: sets.precast.fastcast doesn't n
 there is a lot more you can do and utilize with these files, but I mainly just use them for the shortcuts. It doesn't require much overhead and doesn't do
 anything that you couldn't macro. Place them in your libs folder and forget it.
 
-For more in-depth information on what you can do with them or how they work go here: https://github.com/Kinematics/GearSwap-Jobs/wiki
+For more in-depth information on what you can do with them or how they work go here: https://github.com/Kinematics/GearSwap-Jobs/wiki , but it is not necessary to think much about them except for getting them to use my scripts.
 
 I'm in the process of remaking my job scripts from scratch, it's going to take a while and I'm not sure what will be next, but check back later to see if I have anything new.
 
