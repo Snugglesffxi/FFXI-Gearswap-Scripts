@@ -2,7 +2,9 @@
 
 Snuggles Supernova FFXI (75 cap) Pivate Servers Bard Gearswap Script V.1
 
-This file is loosely based off of Kinematics bard scripts, but has ultimately been gutted for 75 cap simplification and optimization, I've also added several of my own personal touches. I have heavily commented most aspects so that it is user friendly for anyone wanting to get started with gearswap. Feel free to ignore the comments if you are a pro :)
+This file is loosely based off of Kinematics bard scripts, but has ultimately been gutted for 75 cap simplification and optimization,
+I've also added several of my own personal touches. I have heavily commented most aspects so that it is user friendly for anyone wanting to get started with gearswap.
+Feel free to ignore the comments if you are a pro :)
 
 This Gearswap file uses Motenten's library files for Gearswap available here: https://github.com/Kinematics/Mote-libs
 just click "Code" and then "Download Zip" then extract them into the gearswap/libs folder. (they may already be there, if so, this step is not necessary)
@@ -23,13 +25,20 @@ Features:
 
 ToDo: gitgud at bard.
 
-Note on Minstrel's Ring: You will have more hp as /nin than the standard /whm or /rdm subs. Take this into account for your precast yellow set's hp calculations. Additionally, if you eat food with +HP on it, make sure you calculate for that. And lastly but perhaps most importantly, you should consider that if you use Rostrum Pumps in your fast cast set, you will need to calculate more -hp in your yellow set as it will start counting from a 30 hp lower max hp than your bardbuff /debuff set.
+Note on Minstrel's Ring: You will have more hp as /nin than the standard /whm or /rdm subs. Take this into account for your precast yellow set's hp calculations.
+Additionally, if you eat food with +HP on it, make sure you calculate for that. And lastly but perhaps most importantly, you should consider that if you use
+Rostrum Pumps in your fast cast set, you will need to calculate more -hp in your yellow set as it will start counting from a 30 hp lower max hp than your bardbuff /debuff set.
 
-My song casting hp % before food for /whm or /rdm is 69/70%. When song is finished my idleSet will bring me back to 81% hp. For /nin its's 69% and 79% respectively. With food take 1% or 2%(hq) off of each (rolandberry daifuku). That is to say I am never in Yellow HP for more than the time it takes to play a song. Healers are more likely to leave you alone in this case, and you're less likely to stress them out.
+My song casting hp % before food for /whm or /rdm is 69/70%. When song is finished my idleSet will bring me back to 81% hp. For /nin its's 69% and 79% respectively.
+With food take 1% or 2%(hq) off of each (rolandberry daifuku). That is to say I am never in Yellow HP for more than the time it takes to play a song.
+Healers are more likely to leave you alone in this case, and you're less likely to stress them out.
 
-Note on shiekh manteel: I have found no discernable spellcasting time difference while using it with my fastcast set + minstrels ring. So I don't use it. It's possible with my fastcast set i'm hitting or close to hitting the -50% songcasting hardcap before Nightingale. Your results may differ depending on your gear, and you might get some use out of it.
+Note on shiekh manteel: I have found no discernable spellcasting time difference while using it with my fastcast set + minstrels ring. So I don't use it.
+It's possible with my fastcast set i'm hitting or close to hitting the -50% songcasting hardcap before Nightingale.
+Your results may differ depending on your gear, and you might get some use out of it.
 
-On /whm, with my fastcast set + ring, my first song finishes at about 38% of cast bar completion, and I can start the second song when it gets to around 52%. It's slightly faster on /rdm due to the Enhanced Fast Cast trait.
+On /whm, with my fastcast set + ring, my first song finishes at about 38% of cast bar completion, and I can start the second song when it gets to around 52%.
+It's slightly faster on /rdm due to the Enhanced Fast Cast trait.
 
 One button toggle macro you can use with this script for buffs:
 
@@ -455,7 +464,7 @@ windower.register_event('zone change',function(zone_id)
 	
 --[[
 	-- bastok
-    if (world.area:contains("Bastok") or world.area:contains("Metal")) 
+    if (world.area:contains("Bastok") or world.area:contains("Metal"))
 	and not (world.area:contains("Dynamis") or world.area:contains("[S]")) then
         equip ({body="Republic Aketon"})
         disable('body')
@@ -467,7 +476,7 @@ windower.register_event('zone change',function(zone_id)
 
 --[[	
     -- sandoria
-    if (world.area:contains("San dOria") or world.area:contains("Chateau")) 
+    if (world.area:contains("San dOria") or world.area:contains("Chateau"))
 	and not (world.area:contains("Dynamis") or world.area:contains("[S]")) then
         equip ({body="Kingdom Aketon"})
 	    disable('body')
