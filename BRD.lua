@@ -3,8 +3,8 @@
 Snuggles Supernova FFXI (75 cap) Pivate Servers Bard Gearswap Script V.1
 
 This file is loosely based off of Kinematics bard scripts, but has ultimately been gutted for 75 cap simplification and optimization,
-I've also added several of my own personal touches. I have heavily commented most aspects so that it is user friendly for anyone wanting to get started with gearswap.
-Feel free to ignore the comments if you are a pro :)
+I've also added several of my own personal touches. I have heavily commented most aspects so that it is user friendly
+for anyone wanting to get started with gearswap. Feel free to ignore the comments if you are a pro :)
 
 This Gearswap file uses Motenten's library files for Gearswap available here: https://github.com/Kinematics/Mote-libs
 just click "Code" and then "Download Zip" then extract them into the gearswap/libs folder. (they may already be there, if so, this step is not necessary)
@@ -27,7 +27,8 @@ ToDo: gitgud at bard.
 
 Note on Minstrel's Ring: You will have more hp as /nin than the standard /whm or /rdm subs. Take this into account for your precast yellow set's hp calculations.
 Additionally, if you eat food with +HP on it, make sure you calculate for that. And lastly but perhaps most importantly, you should consider that if you use
-Rostrum Pumps in your fast cast set, you will need to calculate more -hp in your yellow set as it will start counting from a 30 hp lower max hp than your bardbuff /debuff set.
+Rostrum Pumps in your fast cast set, you will need to calculate more -hp in your yellow set as it will start counting from a 30 hp lower max hp 
+than your bardbuff /debuff set.
 
 My song casting hp % before food for /whm or /rdm is 69/70%. When song is finished my idleSet will bring me back to 81% hp. For /nin its's 69% and 79% respectively.
 With food take 1% or 2%(hq) off of each (rolandberry daifuku). That is to say I am never in Yellow HP for more than the time it takes to play a song.
