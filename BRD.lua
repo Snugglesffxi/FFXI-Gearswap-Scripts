@@ -115,13 +115,13 @@ function init_gear_sets()
 	-- base yellow hp on the highest hp of the song buff/debuff sets you will define below
 	-- you MUST put Minstrel's ring in this set!!
     sets.precast.yellow = {
-	    head ="Empress Hairpin",
-	    neck ="Star Necklace",  -- I only need this with HQ food or /nin, otherwise I comment it out
+	head ="Empress Hairpin",
+	neck ="Star Necklace",  -- I only need this with HQ food or /nin, otherwise I comment it out
         body = "Dalmatica +1",
         hands = "Zenith Mitts +1",
         right_ear = "Astral Earring",
-		left_ring = "Serket Ring",
-		right_ring= "Minstrel's Ring",
+	    left_ring = "Serket Ring",
+	    right_ring= "Minstrel's Ring",
         waist = "Scouter's Rope"
     }
 
@@ -134,7 +134,7 @@ function init_gear_sets()
         body = "Kirin's Osode",
         hands = "Bricta's Cuffs",
         back = "Bard's Cape",
-		waist = "Warwolf Belt",
+	    waist = "Warwolf Belt",
         legs = "Sheikh Seraweels",
         feet = "Dance Shoes +1"
     }
@@ -217,7 +217,7 @@ function init_gear_sets()
         sub = "Reign Grip",
         head = "Ree's Headgear",
         neck = "Enfeebling Torque",
-		left_ear = "Incubus Earring +1",
+        left_ear = "Incubus Earring +1",
         right_ear = "Enfeebling Earring",
         body = "Mahatma Hpl.",
         hands = "Oracle's Gloves",
@@ -323,7 +323,7 @@ function init_gear_sets()
         neck = "Bloodbead Gorget",
         left_ear = "Melody Earring +1",
         right_ear = "Melody Earring +1",
-		body = "Dalmatica +1",
+	    body = "Dalmatica +1",
         hands = "Creek F Mitts",
         left_ring = "Succor Ring",
         right_ring = "Shadow Ring",
