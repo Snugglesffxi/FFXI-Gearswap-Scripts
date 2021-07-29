@@ -1,5 +1,4 @@
-# FFXI-Gearswap-Scripts
-My personal gearswap scripts
+# My personal FFXI Gearswap job scripts for 75 cap
 
 All of my files use Motenten's Library files for gearswap available here: https://github.com/Kinematics/Mote-libs
 just click "Code" and then "Download Zip" then extract them into the gearswap/libs folder. 
